@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e0e0e0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.login-form, .signup-form {
+  width: 400px;
+}
+
+.admin-navbar {
+  background-color: #eeeeee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+.admin-calculator {
+  margin-top: 80px;
+}
+
+.not-found {
+  width: fit-content;
+  height: 100vh;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    margin-bottom: 10px;
+  }
+}
+
+.log-out-btn {
+  margin-left: auto;
+}
+
+.tab-content {
+  height: 400px;
+  align-content: flex-start;
+  overflow-y: auto;
+}
+
+.exchange-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.currency-info {
+  width: 100px;
+  height: 80px;
+  padding: 5px;
+  gap: 10px;
+  background-color: #eeeeee;
+}
+
+.currency-info:hover {
+  background-color: #e0e0e0;
+}
+
+.card-link {
+  cursor: pointer;
+}
+
+i {
+  cursor: pointer;
+}
